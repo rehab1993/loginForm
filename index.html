@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@
+100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" 
+rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <section id="register-form" class="w-50 mx-auto py-5 my-4">
+  <!-- <form id="register-form"> -->
+    <div class="container text-center shadow-lg p-4 ">
+      <div class="row">
+   <div class="sign-form">
+    <h1 class="">Smart Login System</h1>
+
+    <input type="text" placeholder="Enter your name" class="form-control focus-ring my-4 input-1">
+
+    <div class="alert-1 alert-danger d-none"role="alert">
+      <p class="mb-0 text-danger">Please start with capital letter</p>
+    </div>
+    
+    <input type="email" placeholder="Enter your email" class="form-control focus-ring my-4 input-2">
+    <div class="alert-2 alert-danger d-none"role="alert">
+      <p class="mb-0 text-danger">Please write correct email</p>
+    </div>
+    <input type="password" placeholder="Enter your password" class="form-control focus-ring my-4 input-3"  >
+    <div class="alert-3 alert-danger d-none"role="alert">
+      <p class="mb-0 text-danger">Minimum eight characters, at least one letter and one number</p>
+    </div>
+
+    <p id="exist">
+      <span class="text-danger m-3">All inputs is requeired</span>
+    </p>
+    <p id="sucsses">
+      <span class="text-success m-3 d-none">sucsses</span>
+    </p>
+    
+    <div class="alert-4 alert-danger d-none"role="alert" id="email">
+      <p class="mb-0 text-danger">email alredy exist</p>
+    </div>
+   
+
+    <button class="form-control my-4 signUp " id="signUp">Sign Up</button>
+    
+    <div class="">
+      <span class="text-white me-2">You have an account</span><a id="signin" class="text-white border-0 text-decoration-underline link-1 pointer-event">Sign In</a>
+    </div>
+   
+   
+   </div>
+  </div>
+  </div>
+  <!-- </form> -->
+  </section>
+
+
+ 
+
+
+
+  
+
+ <script src="js/bootstrap.bundle.min.js"></script>  
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+ <script src="js/main.js">
+
+
+
+ </script>
+</body>
+</html>

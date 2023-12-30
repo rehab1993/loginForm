@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+  
+}
+body{
+    background-color: #24353f;
+}
+
+h1{
+    color: #1e7b8d;
+}
+.sign-form input{
+    background-color:transparent;
+    
+    
+    
+}
+
+.sign-form input::placeholder{
+    color: rgb(194, 193, 193);
+}
+.sign-form a{
+    color: #1e7b8d;
+    border:solid 2px #1e7b8d;
+    transition: .4s;
+    background-color: #24353f;
+
+    
+}
+
+a:hover{
+    background-color: #1e7b8d;
+    color: white;
+    border: none;
+}
+.disabled {
+   display: none;
+}
+a{
+    cursor: pointer;
+}
+#exist{
+    display: none;
+}
